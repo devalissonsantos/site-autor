@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Glock & display=swap');
+@font-face {
+    font-family: Glook;
+    src: url(fontes/Gloock-Regular.ttf);
+}
+body {
+    background-color: #ecc73fad;
+    margin: 0px;
+    background-image: url(imagens/fundo-velho3.0.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+header {
+    margin: auto;
+    padding-top: 7px;
+    width: 1000px;
+    height: 190px;
+    background-image: linear-gradient(to top,#fabb0d, #e3cc00, #f9fd00);
+}
+h1 {
+    text-align: center;
+    font-family: Glook;
+    font-weight: bold;
+    font-size: 45px;
+}
+nav > a {
+    margin: 10px;
+    text-decoration: none;
+    color:#f16304b9;
+    font-size: 18px;
+}
+nav a:hover {
+    background-color: #e0b94c79;
+    padding: 10px 10px 10px 10px;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+header > p {
+    font-size: 18px;
+    text-align: center;
+    font-family: Glook;
+}
+section {
+    padding-top: 7px;
+    margin: auto;
+    max-width: 1000px;
+    height: 300px;
+    background-color: white;
+    background-image: url(imagens/monte-cinzento2.0\ -\ Editado.png);
+    background-size: cover;
+    
+}
+main {
+    margin: auto;
+    padding-top: 7px;
+    max-width: 1000px;
+    height: 100vh;
+    background-color: white;
+}
+section > h2 {
+    text-align: center;
+    padding-top: 90px;
+    color: rgb(207, 203, 203);
+    font-weight: normal;
+    font-size: 28px;
+}
+section > p {
+    text-align: center;
+    color: rgb(207, 202, 202);
+    font-size: 17px;
+}
+main > p {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent: 20px;
+    font-size: 17px;
+}
+main > h2 {
+    background-image: linear-gradient(to top,#e0b94c79, transparent);
+    color: #f16304b9;
+    padding-top: 10px;
+    font-family: Glook;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #f16304b9;
+}
+a :hover {
+    background-color: #e0b94c79;
+    text-decoration: underline;
+}
