@@ -91,3 +91,7 @@ a :hover {
     background-color: #e0b94c79;
     text-decoration: underline;
 }
+img {
+    display: block;
+    margin: auto;
+}
