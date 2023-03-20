@@ -18,6 +18,7 @@ header {
     background-image: linear-gradient(to top,#fabb0d, #e3cc00, #f9fd00);
 }
 h1 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.308);
     text-align: center;
     font-family: Glook;
     font-weight: bold;
@@ -36,11 +37,13 @@ nav a:hover {
     border-radius: 10px;
 }
 header > p {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.445);
     font-size: 18px;
     text-align: center;
     font-family: Glook;
 }
 section {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.295);
     padding-top: 7px;
     margin: auto;
     max-width: 1000px;
@@ -51,11 +54,13 @@ section {
     
 }
 main {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.233);
     margin: auto;
     padding-top: 7px;
+    padding-bottom: 3px;
     min-width: 350px;
     max-width: 1000px;
-    height: 1700px;
+    height: 2200;
     background-color: white;
 }
 section > h2 {
@@ -98,4 +103,45 @@ a :hover {
 .dupla {
     display: block;
     margin: auto;
+}
+aside {
+    max-width: 1000px;
+    height: 200px;
+    background-color: #e0b94c79;
+    border-radius: 10px 10px 10px 10px;
+}
+.comentario {
+    text-align: center;
+    font-size: 12px;
+}
+h3 {
+    background-color: #f1630491;
+    font-family: Glook;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > p {
+    text-indent: 20px;
+    padding-left: 15px;
+}
+ol {
+    text-align: center;
+    columns: 2;
+    list-style-position: inside;
+    font-size: 18px;
+}
+.final {
+    font-size: 14px;
+    text-indent: 20px;
+    padding-bottom: 5px;
+}
+footer {
+    margin: auto;
+    max-width: 1000px;
+    height: 20px;
+    background-color: #f1630491;
+}
+footer > p {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.322);
+    text-align: center;
 }
