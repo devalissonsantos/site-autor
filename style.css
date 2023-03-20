@@ -106,10 +106,12 @@ a :hover {
     margin: auto;
 }
 aside {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.281);
     max-width: 1000px;
     height: 200px;
     background-color: #e0b94c79;
     border-radius: 10px 10px 10px 10px;
+    margin: 15px 15px 15px 15px;
 }
 .comentario {
     text-align: center;
