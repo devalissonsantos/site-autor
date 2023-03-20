@@ -55,7 +55,7 @@ main {
     padding-top: 7px;
     min-width: 350px;
     max-width: 1000px;
-    height: 100%;
+    height: 1700px;
     background-color: white;
 }
 section > h2 {
@@ -91,7 +91,11 @@ a :hover {
     background-color: #e0b94c79;
     text-decoration: underline;
 }
-img {
+.design {
+    display: block;
+    margin: auto;
+}
+.dupla {
     display: block;
     margin: auto;
 }
