@@ -38,7 +38,7 @@ nav a:hover {
     border-radius: 10px;
 }
 header > p {
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.445);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.226);
     font-size: 18px;
     text-align: center;
     font-family: Glook;
@@ -149,4 +149,27 @@ footer {
 footer > p {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.322);
     text-align: center;
+}
+#pag02 {
+    max-width: 1000px;
+    height: 1800px;
+}
+article {
+    max-width: 960px;
+    height: 670px;
+    border: 2px solid black;
+    margin-left: 17px;
+    background-color: rgba(236, 236, 192, 0.308);
+}
+h2 {
+    font-family: Glook;
+    text-align: center;
+}
+article > p {
+    text-align: center;
+    text-indent: 10px;
+}
+.unbo {
+    display: block;
+    margin: auto;
 }
