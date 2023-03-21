@@ -154,7 +154,7 @@ footer > p {
     max-width: 1000px;
     height: 1800px;
 }
-article {
+.unboxing {
     max-width: 960px;
     height: 670px;
     border: 2px solid black;
@@ -172,4 +172,21 @@ article > p {
 .unbo {
     display: block;
     margin: auto;
+}
+.rese {
+    margin-left: 17px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.resenha {
+    margin-left: 17px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.apresent {
+    border: 2px solid black;
+    max-width: 960px;
+    height: 550px;
+    margin-top: 10px;
+    margin-left: 17px;
 }
